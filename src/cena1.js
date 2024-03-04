@@ -13,7 +13,7 @@ class Cena1 extends Phaser.Scene {
         // carrega spritesheet do gato e diz o tamanho
         this.load.spritesheet({
             key: 'gato', // nome do spritesheet
-            url: '/../assets/gato.png', // localização do arquivo 
+            url: 'assets/gato.png', // localização do arquivo 
             frameConfig: { // configuração das medidas do sprite
                 frameWidth: 400,
                 frameHeight: 200
